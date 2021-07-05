@@ -1,5 +1,5 @@
--- CommandBar by fourteen#0004 ( me ) 
--- i made this command bar >:( (please give credit if used :D)
+-- Basic Commandbar
+
 
 local Name = game.Players.LocalPlayer.Name
 local RipcordCmdGui = Instance.new("ScreenGui")
