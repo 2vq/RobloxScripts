@@ -3,7 +3,7 @@
 
 local Name = game.Players.LocalPlayer.Name
 local RipcordCmdGui = Instance.new("ScreenGui")
-local CmdBox = Instance.new("TextBox")
+local CmdBox = Instance.new("TextBox", MainGui)
 local AdminBar = CmdBox.FocusLost
 local PrefixOpener = ";"
 local Prefix = PrefixOpener
@@ -21,6 +21,7 @@ CommandBarGui.Parent = game.CoreGui
 CmdBox.Name = "CmdBox"
 CmdBox.Parent = CommandBarGui
 CmdBox.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+CmdBar.BorderColor3 = Color3.fromRGB(255, 255, 255)
 CmdBox.BorderSizePixel = 3
 CmdBox.Position = UDim2.new(0, 0, 0.533333333333, 0)
 CmdBox.Size = UDim2.new(0, 0, 0, 20)
