@@ -1,27 +1,23 @@
--- Basic Commandbar
-
-
 local Name = game.Players.LocalPlayer.Name
-local RipcordCmdGui = Instance.new("ScreenGui")
-local CmdBox = Instance.new("TextBox", MainGui)
+local NecrokiCmdGui = Instance.new("ScreenGui")
+local CmdBox = Instance.new("TextBox")
 local AdminBar = CmdBox.FocusLost
-local PrefixOpener = ";" -- CommandBar opener.
+local PrefixOpener = ";" -- not changing this prolly ? 
 local Prefix = PrefixOpener
-local Players = game:GetService("Players").LocalPlayer
-local KeyPress = Players:GetMouse()
+local lp = game:GetService("Players").LocalPlayer
+local KeyPress = lp:GetMouse()
 local added = game.Workspace.ChildAdded
-local hum = Players.Character.Humanoid
-local m = Players:GetMouse()
+local hum = lp.Character.Humanoid
+local m = lp:GetMouse()
 local uis = game:GetService('UserInputService')
 local ChatCmd = true
 local Chat = game.Players.LocalPlayer.Chatted
-CommandBarGui.Name = "CommandBarGui"
-CommandBarGui.Parent = game.CoreGui
+NecrokiCmdGui.Name = "NecrokiCmdGui"
+NecrokiCmdGui.Parent = game.CoreGui
 
 CmdBox.Name = "CmdBox"
-CmdBox.Parent = CommandBarGui
+CmdBox.Parent = NecrokiCmdGui
 CmdBox.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-CmdBar.BorderColor3 = Color3.fromRGB(255, 255, 255)
 CmdBox.BorderSizePixel = 3
 CmdBox.Position = UDim2.new(0, 0, 0.533333333333, 0)
 CmdBox.Size = UDim2.new(0, 0, 0, 20)
