@@ -1,3 +1,3 @@
 # Roblox-Scripts
 
-Discord : fourteen#0004 -- DM me for help on anything
+Discord : godfather#0001 -- DM me for help on anything
