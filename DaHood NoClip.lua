@@ -1,6 +1,6 @@
 --[[
 	Might work on other games?
-  Dont know :shrug:
+  	Dont know :shrug:
 ]]--
 
 --[[ Notify ]]--
