@@ -36,10 +36,10 @@ RService.Stepped:Connect(
 Input.InputBegan:Connect(function(hotkey)
     if hotkey.KeyCode == Enum.KeyCode.X then
         Noclip = not Noclip
-        notify("Noclip: "..tostring(Noclip))
+        notify("Noclip ", "NoClip: "..tostring(Noclip), "", 3)
     end
 end)
 --[[ End ]]--
 notify("WARNING", "if you get banned it is NOT my fault.", "", 3)
 wait(1)
-notify("lynx", "NoClip Toggle key: X", "", 3)
+notify("lynx", "Noclip Toggle key: X", "", 3)
